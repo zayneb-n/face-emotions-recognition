@@ -1,0 +1,64 @@
+# 1. Virtual Environment (commonly named 'venv' or '.venv')
+venv/
+.venv/
+
+# 2. Python Bytecode / Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 3. IDE / Editor Files
+# VSCode settings folder (optional - if you want to ignore local settings)
+.vscode/
+# JetBrains (PyCharm) specific
+.idea/
+
+# 4. Operating System Files
+.DS_Store
+Thumbs.db
+
+# 5. Environment / Configuration Files
+.env
+*.env
+
+# 6. Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# 7. Logs
+*.log
+*.out
+*.txt
+logs/
+debug.log
+
+# 8. Model Checkpoints / Large Files (if you don't want to version them)
+checkpoints/
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# 9. TensorBoard / SavedModel Directories
+logs/
+saved_model/
+events.out.tfevents.*
+
+# 10. Data (if you don't want your raw dataset in version control)
+Dataset/
+*.csv
+*.pkl
+*.npz
+*.npy
+*.mp4
+*.avi
+*.mov
+*.png
+
+# 11. Other large or temporary artifacts
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# 12. Mac ._ files
+._*
